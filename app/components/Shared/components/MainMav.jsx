@@ -144,6 +144,24 @@ export default function MainMav() {
               Contact
             </Link>
           </button>
+
+          <ul class="text-center text-white font-bold text-xl lg:inline-block space-x-6">
+            <Link
+              className="bg-red-400 block w-full py-2 px-4 rounded-full"
+              onClick={closeSubMenu}
+              href={"/login"}
+            >
+              Login
+            </Link>
+
+            <Link
+              className="border border-x-2 border-y-2 border-red-600 py-2 px-4 text-red-600"
+              onClick={closeSubMenu}
+              href={"/about"}
+            >
+              0.0 tk
+            </Link>
+          </ul>
         </ul>
       )}
     </>
