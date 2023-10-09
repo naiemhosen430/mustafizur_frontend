@@ -153,14 +153,6 @@ export default function MainMav() {
             >
               Login
             </Link>
-
-            <Link
-              className="border border-x-2 border-y-2 border-red-600 py-2 px-4 text-red-600"
-              onClick={closeSubMenu}
-              href={"/about"}
-            >
-              0.0 tk
-            </Link>
           </ul>
         </ul>
       )}
