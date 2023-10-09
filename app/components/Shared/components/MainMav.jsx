@@ -114,6 +114,22 @@ export default function MainMav() {
               Home
             </Link>
           </button>
+          <button
+            className="hover:text-slate-600 block py-2 text-white px-4 font-bold"
+            type="button"
+          >
+            <Link onClick={closeSubMenu} href={"/courses"}>
+              Courses
+            </Link>
+          </button>
+          <button
+            className="hover:text-slate-600 block py-2 text-white px-4 font-bold"
+            type="button"
+          >
+            <Link onClick={closeSubMenu} href={"/successstory"}>
+              Success Story
+            </Link>
+          </button>
 
           <button
             className="hover:text-slate-600 block py-2 text-white px-4 font-bold"
